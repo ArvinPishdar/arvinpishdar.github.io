@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Arvin.io</title>
+        <title>بازی ثبت نام کنید</title>
         <link rel="icon" href="favicon.jpg">
     </head>
     <body>
-        <h1>Hello World</h1>
+        <h1>سلام به بازی ثبت نام کنید خیلی خوش آمدید پس ثیت نام کنید</h1>
+        <form action="register" method="post">
+            <label for="name">اسم شما؟</label>
+            <input type="text" placeholder="اسمت رو بنویس" id="name" required>
+            <label for="password">یه پسورد بنویس</label>
+            <input type="password" placeholder="رمز؟" id="password" required>
+            <label for="ostan">استان شما؟</label>
+            <select id="ostan" required>
+                <option>تهران</option>
+                <option>خوزستان</option>
+                <option>اصفهان</option>
+            </select>
+            <input type="submit" value="ثبت">
+        </form>
     </body>
 </html>
